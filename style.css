@@ -2,9 +2,9 @@ body{
     font-family: 'Mulish', sans-serif;
     margin: 0;
 }
-section{
+.flex{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 h1{
     font-size: 55px;
@@ -46,3 +46,40 @@ a{
     background-repeat: no-repeat;
     background-position: right;
 }
+.last-area{
+    display: flex;
+}
+.last-step{
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 10px 10px 40px chocolate;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.orange{
+    color: orange;
+}
+.size{
+    font-size: 45px;
+}
+.last-text{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
